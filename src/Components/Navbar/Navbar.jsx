@@ -24,7 +24,7 @@ const {getTotalCartAmount} = useContext(Storecontext);
                <Link to='/cart'><img src={assets.basket_icon} alt="" /></Link>
                 <div className={getTotalCartAmount()===0?"": "dot"}> </div>
             </div>
-            <button onClick={()=>setShowLogin(true)}>Sign in</button>
+            <button onClick={()=>setShowLogin(true)}>Login</button>
         </div>
       
     </div>

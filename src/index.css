@@ -23,16 +23,17 @@ a{
 }
 .navbar button{
   background: transparent ;
-  font-size: 16px;
-  color: #49557e;
-  border: 1px solid tomato;
+  font-size: 25px;
+  color: #000000;
+  border: 2px solid rgb(127, 207, 7);
   padding: 10px 30px;
   border-radius: 50px;
   cursor: pointer;
   transition: 0.3s;
 }
+
 .navbar button:hover{
-  background-color: #fff4f2;
+  background-color: rgb(67, 207, 32);
 }
 .navbar .active{
   padding-bottom: 2px;
